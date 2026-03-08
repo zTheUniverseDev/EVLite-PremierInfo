@@ -1,0 +1,28 @@
+# --- Archivos de Salida de PocketMine ---
+*.phar
+/plugins/
+/worlds/
+/players/
+server.log
+server.properties
+pocketmine.yml
+white-list.txt
+ops.txt
+banned-ips.txt
+banned-players.txt
+
+# --- Binarios y PHP (API 2.0.0 era) ---
+/bin/
+/gen/
+php.ini
+
+# --- Herramientas de Desarrollo ---
+/vendor/
+composer.lock
+
+# --- Archivos de Sistema y Editores ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
