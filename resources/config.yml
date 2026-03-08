@@ -1,0 +1,31 @@
+# ==================== 
+# Plugin de PremierInfo by zTheUniverseMP_
+# Placeholders disponibles:
+# {player} <- referirse al nombre del jugador
+# {online} <- jugadores online del servidor
+# {command} <- referirse al comando ejecutado
+# {subcommand} <- referirse al subcomando
+# Sonidos disponibles:
+# info <- FizzSound - Silverfish
+# positivo <- ExpPickupSound - XP
+# negativo <- GhastShootSound - Ghast
+# Para colores puedes usar tanto "§" como "&"
+# para los subcomandos puedes crear arrays con X: y para mensajes especiales puedes usar lso siguientes:
+# _ayuda_ el mensaje que se envia cuando no se coloca ningun subcomandos
+# _sonido_ el sonido que se envia al jugador al usar el comando
+# _texto_ el texto que se envia al usar el comando
+# plugin creado para que sea totalmente configurable a tu gusto, eso es lo que lo hace especial.
+# atte: zTheUniverseMP_
+
+unknown-subcommand: "&cSubcomando '{subcommand}' no existe. Usa /{command} para más información."
+
+comandos:
+  ayuda: # puedes copiar ese bloque para crear mas subcomandos
+    _ayuda_: "§l§bServidor§r§8 ||§l§f AYUDA§r\n\n§f-§b Usa /ayuda 1\n§f-§b Usa /ayuda 2"
+    _sonido_: "negativo"
+    1:
+      _texto_: "pagina 1 de ayuda"
+      _sonido_: "positivo"
+    2:
+      _texto_: "pagina 2 de ayuda"
+      _sonido_: "positivo"
