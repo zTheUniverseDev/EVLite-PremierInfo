@@ -18,5 +18,5 @@ Compile el codigo del plugin mediante DevTools o descargue el archivo PremierInf
 **Discord: Envie solicitud a "Universecraft_YT"**
 
 # Licencia
-https://github.com/zTheUniverseDev/EVLite-PremierShopping/blob/main/LICENSE
+https://github.com/zTheUniverseDev/EVLite-PremierInfo/blob/main/LICENSE
 
